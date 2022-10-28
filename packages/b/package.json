@@ -1,0 +1,33 @@
+{
+  "name": "@example/b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jesse Wright <63333554+jeswr@users.noreply.github.com>",
+  "homepage": "https://github.com/jeswr/lerna-run-demo#readme",
+  "license": "MIT",
+  "main": "lib/b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeswr/lerna-run-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/b.test.js",
+    "build": "npm run test"
+  },
+  "bugs": {
+    "url": "https://github.com/jeswr/lerna-run-demo/issues"
+  },
+  "dependencies": {
+    "@example/a": "^0.0.0"
+  }
+}
